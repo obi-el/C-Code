@@ -3,11 +3,11 @@ Obinna Elobi(100953254) - obinnaelobi@cmail.carleton.ca
 Craig Isesele(100950074) - craigisesele@cmail.carleton.ca
 
 Description
-The assignment uses three programs cloud,controller and device. There is only one header file for all the programs
+The assignment uses three programs cloud,controller and device and one header file.
 
-Bugs/Errors:
--Problem with timer: device process is slowed down so that items can be read/printed by processes as it is faster than them
--Cloud never stops running
+The device sends randomly generated ints to represent real world random data and transmits it to the controller via a message queue. the controller processes the data and if its above a threshold it sends a signal to the device and transmits the data via a named pipe to the cloud
+
+
 
 Instructions for running code:
 -Open 3 command line terminals
